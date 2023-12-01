@@ -1,0 +1,41 @@
+/* nova-square-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Nova Square";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/nova-square-v24-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+*::before,
+**::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nova Square";
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.container {
+  width: 1157px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}/*# sourceMappingURL=main.css.map */
